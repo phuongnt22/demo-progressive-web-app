@@ -9,7 +9,7 @@
 		"node-gcm": "^1.0.2"
 	},
 	"scripts": {
-		"start": "npm run css && node server.js",
+		"start": "node server.js",
 		"css": "postcss -u autoprefixer -r css/*"
 	},
 	"devDependencies": {
